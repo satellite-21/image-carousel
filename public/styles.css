@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.image-size {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.leftbtn{
+    width: 100px;
+    background-color: #ff0303;
+    margin-bottom: 10px;
+}
+
+.rightbtn{
+    width: 100px;
+    background-color: aqua;
+}
