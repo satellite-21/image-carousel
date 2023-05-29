@@ -20,7 +20,7 @@ const Carousel = () => {
     const rightClick = () => {
       setIdx((prvIdx) => (prvIdx === imgArr.length - 1 ? 0 : prvIdx + 1));
     };
-  
+
     return (
         <div>
         <div className="center">
@@ -30,10 +30,6 @@ const Carousel = () => {
     
         <button className="leftbtn" type="box" onClick={leftClick}>Left </button>
         <button className="rightbtn" type="box" onClick={rightClick}>Right </button>
-    
-    
-    
-    
         </div>
     
     </div>
